@@ -1,0 +1,28 @@
+@media screen and (max-width: 630px) {
+    nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px; 
+      width: 100%;
+      padding: 6px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+  .Images {
+    height: 100vh !important;
+  }
+  .Images .carousel,
+  .Images .carousel .slider-wrapper,
+  .Images .carousel .slider,
+  .Images .carousel .slide {
+    height: 100vh !important;
+  }
+
+  .Images .carousel .slide img {
+    width: 100% !important;
+    height: 100vh !important;
+  }
+}
