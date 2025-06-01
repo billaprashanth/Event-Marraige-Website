@@ -4,7 +4,6 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { TypeAnimation } from 'react-type-animation';
 
-
 import Image1 from '../assets/Mandapam/001.jpg';
 import Image2 from '../assets/Mandapam/2.jpg';  
 import Image3 from '../assets/Mandapam/000000001.jpg';
@@ -25,10 +24,10 @@ const Hero = () => {
         className="absolute inset-0 z-0"
       >
         <div>
-          <img src={Image3} alt="Event 1" className="h-screen object-cover w-full" />
+          <img src={Image2} alt="Event 1" className="h-screen object-cover w-full" />
         </div>
         <div>
-          <img src={Image2} alt="Event 2" className="h-screen object-cover w-full" />
+          <img src={Image3} alt="Event 2" className="h-screen object-cover w-full" />
         </div>
         <div>
           <img src={Image1} alt="Event 3" className="h-screen object-cover w-full" />

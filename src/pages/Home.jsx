@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Video from '../components/Video';
 import About from '../components/About';
 import Gallery from '../components/Gallery';
 import Contact from '../components/Contact';
@@ -58,6 +59,7 @@ const Home = () => {
     <div ref={containerRef}>
       <div><Navbar /></div>
       <div className="section"><Hero /></div>
+      <div className='section'><Video /></div>
       <div className="section"><Gallery /></div>
       <div className="section"><About /></div>
       <div className="section"><Contact /></div>
