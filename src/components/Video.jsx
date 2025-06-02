@@ -1,5 +1,5 @@
 import React from 'react';
-import video from "P:\\FreeLance-Projects\\event-marraige-application-using-react\\src\\assets\\VID-20250530-WA0002.mp4";
+import video from "../assets/VID-20250530-WA0002.mp4";
 
 function Video() {
   return (
